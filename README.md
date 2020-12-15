@@ -52,7 +52,7 @@ chameleon
 st
 qt5ct
 alacritty
-pcmanfm
+pcmanfm 
 lxappearance
 lxrandr
 flameshot
