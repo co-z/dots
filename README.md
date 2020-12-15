@@ -26,7 +26,7 @@ nextcloud-client
 pywalfox
 polybar
 mapscii
-pavucontrol
+pavucontrol 
 vdirsyncer
 steam
 proton
