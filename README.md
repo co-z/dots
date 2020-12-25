@@ -13,11 +13,13 @@ firefox
 
 qutebrowser
 
+vivaldi
+
 picom
 
 tint2
 
-sxiv
+xfwm
 
 dunst
 
@@ -37,9 +39,9 @@ bashtop
 
 gpick
 
-unimatrix
+openbox
 
-termtracker
+unimatrix
 
 nextcloud-client
 
@@ -79,6 +81,8 @@ cordless
 
 xclip
 
+virtualbox
+
 glances
 
 sxhkd
@@ -94,6 +98,8 @@ joplin
 seahorse
 
 chameleon
+
+feh
 
 st
 
@@ -117,3 +123,4 @@ discord-gui
 
 nnn
 
+termit
