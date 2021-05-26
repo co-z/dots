@@ -1,7 +1,11 @@
 # dotfiles
 under nuclear testing.
 
+dwm
+i3-gaps
+qtile
 
+lampe
 rofi
 qutebrowser
 vivaldi
