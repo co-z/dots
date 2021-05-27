@@ -1,10 +1,10 @@
 # dotfiles
 under nuclear testing.
-
-dwm
+<ul>
+<li> dwm </li>
 i3-gaps
 qtile
-
+</ul>
 lampe
 rofi
 qutebrowser
