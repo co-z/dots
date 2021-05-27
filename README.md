@@ -2,8 +2,8 @@
 under nuclear testing.
 <ul>
 <li> dwm </li>
-i3-gaps
-qtile
+<li> i3-gaps </li>
+<li>qtile </li>
 </ul>
 lampe
 rofi
