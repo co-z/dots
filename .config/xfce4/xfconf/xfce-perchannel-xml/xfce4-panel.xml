@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=1280;y=13"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="29"/>
+      <property name="size" type="uint" value="33"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="7"/>
+        <value type="int" value="5"/>
+        <value type="int" value="2"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="6"/>
+        <value type="int" value="23"/>
+        <value type="int" value="10"/>
+        <value type="int" value="8"/>
+      </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="1.000000"/>
+        <value type="double" value="1.000000"/>
+        <value type="double" value="1.000000"/>
+        <value type="double" value="0.000000"/>
+      </property>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="length-adjust" type="bool" value="false"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="0"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="true"/>
+      <property name="sort-order" type="uint" value="2"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-items" type="array">
+        <value type="string" value="tidal-hifi1"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="blueman-tray"/>
+      </property>
+      <property name="hidden-items" type="array">
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance1123;chromium.instance1170;chromium.instance1175;chromium.instance1219;chromium.instance1238;chromium.instance1256;chromium.instance1259;chromium.instance12975;chromium.instance1309;chromium.instance1320;chromium.instance1850;chromium.instance2077;chromium.instance2298;chromium.instance2870;chromium.instance3916;chromium.instance45546;chromium.instance4630;chromium.instance4690;chromium.instance8937;chromium.instance8964;firefox.instance1005;firefox.instance1010;firefox.instance1012;firefox.instance1023;firefox.instance1030;firefox.instance1037;firefox.instance1042;firefox.instance1046;firefox.instance1058;firefox.instance1060;firefox.instance1069;firefox.instance1114;firefox.instance1137;firefox.instance1405;firefox.instance1452;firefox.instance1778;firefox.instance1779;firefox.instance1922;firefox.instance2777;firefox.instance3180;firefox.instance56571;firefox.instance6969;firefox.instance970;firefox.instance976;firefox.instance982;firefox.instance985;firefox.instance986;firefox.instance989;firefox.instance992;firefox.instance994;firefox.instance995;firefox.instance998;plasma-browser-integration;qutebrowser.instance11531"/>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="timezone" type="string" value="EST5EDT"/>
+      <property name="digital-format" type="string" value="%r"/>
+    </property>
+    <property name="plugin-7" type="string" value="whiskermenu"/>
+    <property name="plugin-23" type="string" value="weather">
+      <property name="msl" type="int" value="279"/>
+      <property name="timezone" type="string" value="America/Detroit"/>
+      <property name="offset" type="string" value="-05:00"/>
+      <property name="cache-max-age" type="int" value="172800"/>
+      <property name="power-saving" type="bool" value="true"/>
+      <property name="units" type="empty">
+        <property name="temperature" type="int" value="1"/>
+        <property name="pressure" type="int" value="2"/>
+        <property name="windspeed" type="int" value="1"/>
+        <property name="precipitation" type="int" value="1"/>
+        <property name="altitude" type="int" value="1"/>
+        <property name="apparent-temperature" type="int" value="0"/>
+      </property>
+      <property name="round" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="tooltip-style" type="int" value="1"/>
+      <property name="forecast" type="empty">
+        <property name="layout" type="int" value="1"/>
+        <property name="days" type="int" value="5"/>
+      </property>
+      <property name="theme-dir" type="string" value="/usr/share/xfce4/weather/icons/liquid-dark"/>
+      <property name="scrollbox" type="empty">
+        <property name="show" type="bool" value="true"/>
+        <property name="animate" type="bool" value="true"/>
+        <property name="lines" type="int" value="1"/>
+        <property name="color" type="string" value="rgba(0,0,0,0)"/>
+        <property name="use-color" type="bool" value="false"/>
+      </property>
+      <property name="location" type="empty">
+        <property name="name" type="string" value="South Lyon, Michigan"/>
+        <property name="latitude" type="string" value="42.455700"/>
+        <property name="longitude" type="string" value="-83.654200"/>
+      </property>
+    </property>
+  </property>
+</channel>
